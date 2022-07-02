@@ -1,0 +1,6 @@
+INSERT INTO NEN (ID, NAME) VALUES (1, 'Enhancers');
+INSERT INTO NEN (ID, NAME) VALUES (2, 'Emitters');
+INSERT INTO NEN (ID, NAME) VALUES (3, 'Manipulators');
+INSERT INTO NEN (ID, NAME) VALUES (4, 'Transmuters');
+INSERT INTO NEN (ID, NAME) VALUES (5, 'Conjurers');
+INSERT INTO NEN (ID, NAME) VALUES (6, 'Specialists');
