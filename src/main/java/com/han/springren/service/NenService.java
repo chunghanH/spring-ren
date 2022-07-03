@@ -16,7 +16,15 @@ public class NenService {
         return nenRepository.findAll();
     }
 
+    public List<Nen> findById(int id) {
+        return nenRepository.findById(id);
+    }
+
     public void save(Nen nen) {
         nenRepository.save(nen);
+    }
+
+    public void deleteById(int id) {
+        nenRepository.deleteById(id);
     }
 }

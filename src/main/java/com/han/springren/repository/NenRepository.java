@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface NenRepository extends JpaRepository<Nen, Long> {
     public List<Nen> findAll();
+    public List<Nen> findById(int id);
+    public void deleteById(int id);
 }
